@@ -98,6 +98,8 @@
   
   header: none,
   footer: none,
+
+  background: none,
   
   folding-marks: true,
   hole-mark: true,
@@ -134,8 +136,10 @@
     flipped: false,
     
     margin: margin,
-    
+
     background: {
+        background
+
       if folding-marks {
         // folding mark 1
         place(top + left, dx: 5mm, dy: letter-formats.at(format).folding-mark-1-pos, line(
@@ -493,6 +497,8 @@
   header: auto,
   footer: none,
 
+  background: none,
+
   folding-marks: true,
   hole-mark: true,
   
@@ -580,6 +586,8 @@
     
     header: header,
     footer: footer,
+
+    background: background,
 
     folding-marks: folding-marks,
     hole-mark: hole-mark,
